@@ -8,7 +8,7 @@ function placeOrder(item) {
     return;
   }
 
-  fetch("http://34.230.189.77/backend-app/insert.php", {
+  fetch("http://54.224.240.255/backend-app/insert.php", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded"
