@@ -8,7 +8,7 @@ function placeOrder(item) {
     return;
   }
 
-  fetch("http://3.238.219.37/backend-app/insert.php", {
+  fetch("http://backend-alb-432079772.us-east-1.elb.amazonaws.com7/backend-app/insert.php", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded"
